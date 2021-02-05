@@ -1,0 +1,18 @@
+div.customcolor1 {
+    background-color: #074A81;
+}
+div.customcolor2 {
+    background-color: #2AA6DB;
+}
+div.customcolor3 {
+    background-color: #3B52E0;
+}
+div.customcolor4 {
+    background-color: #132592;
+}
+section.customcolor1 {
+    background-color: #000000;
+}
+h1, h2, h3, h4, h5, h6, a, .customcolor1 {
+    color: #FF4C00;
+}

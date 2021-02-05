@@ -1,0 +1,95 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>资源下载——RDPNetBoot</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.3/build/styles/default.min.css">
+        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.3/build/highlight.min.js"></script>
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+    <body class="is-preload">
+        <header id="header">
+            <a href="index.html" class="title">RDPNetBoot</a>
+            <nav>
+                <ul>
+                    <li><a href="web.html">首页</a></li>
+                    <li><a href="#header" class="active">资源下载</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+
+                <!-- Main -->
+                    <section id="main" class="wrapper">
+                        <div class="inner">
+                            <h1 class="major">资源下载</h1>
+                            <span class="image fit"></span>
+                            <p>这里汇总了RDPNetBoot适用于各种启动引导方式的全部文件，您可以按照需求自行下载</p>
+
+                            <div class="table-wrapper">
+                                <table class="alt">
+                                    <thead>
+                                        <tr>
+                                            <th>引导类型</th>
+                                            <th>引导文件</th>
+                                            <th>主要用途</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>MBR-ISO</td>
+                                            <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.iso" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.iso</a></td>
+                                            <td>适用于传统BIOS启动下的光驱启动</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EFI-ISO</td>
+                                            <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-efi.iso" target="_blank" class="button icon solid fa-download">boot.cn.utools.club-efi.iso</a></td>
+                                            <td>适用于UEFI启动下的光驱启动</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MBR-USB</td>
+                                            <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.usb" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.usb</a></td>
+                                            <td>适用于传统BIOS启动下的USB Key启动</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EFI-USB</td>
+                                            <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-efi.usb" target="_blank" class="button icon solid fa-download">boot.cn.utools.club-efi.usb</a></td>
+                                            <td>适用于UEFI启动下的USB Key启动</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MBR-Floppy</td>
+                                            <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.dsk" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.dsk</a></td>
+                                            <td>适用于传统BIOS启动下的软驱启动</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h3>GRUB引导下载</h3>
+                                <pre><code class="bash">cd /boot
+wget https://boot.cn.utools.club/ipxe/boot.cn.utools.club.lkrn
+                                </code></pre>
+                            </div>
+                        </div>
+
+                    </section>
+
+            </div>
+        <footer id="footer" class="wrapper alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; 2019-2021 RDPStudio 保留所有权利</li><li>使用来自<a href="http://html5up.net">HTML5 UP</a>的主题</li>
+                </ul>
+            </div>
+        </footer>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

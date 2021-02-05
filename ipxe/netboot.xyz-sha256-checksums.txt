@@ -1,0 +1,14 @@
+# netboot.xyz bootloaders generated at Fri Feb  5 09:25:06 UTC 2021
+# iPXE Commit: https://github.com/ipxe/ipxe/commit/831f17f66f9d0082509343de2cf57f9478d877e0
+
+8dc51ba59f5fc789fd4b19c5589e13739ba058746fa2e5ea9897a76e00ffebd4 *boot.cn.utools.club-efi.iso
+9dab114cb4a6022ad6ff5a8d613513a4269e28ee497ccb14a5ad2624b4f6834d *boot.cn.utools.club-efi.usb
+1a6327ce69b7516f6c2e6026b0601b06cd188ae60a607b053430f75d4e4cb1c3 *boot.cn.utools.club-snp.efi
+f62e87c51c41243bea8e8520ea4ac6b6362bb966e6d26114ea4bbea3d7653c4d *boot.cn.utools.club-snponly.efi
+020242e329c028aff761b7eb599114f43f0fc199e9915f10d169e0e338cdeb76 *boot.cn.utools.club-undionly.kpxe
+62b7b93444a0920cb013e995debc2d44b667a603f55b221e29c959b657279f69 *boot.cn.utools.club.dsk
+081970989bf8fccaf35b1ca15e5ee8fbbbd3ede9eeb3301bd9175cad942a7842 *boot.cn.utools.club.efi
+24b59a84cb39558d06a469755b8e46d023d784e0b850d4678d0fe94203522212 *boot.cn.utools.club.iso
+aa50863b642d8d4afc00ee713febb3d2434f1ae82814415ed714c358aedc7476 *boot.cn.utools.club.kpxe
+78b5df35da5730b15b1e2e959a61e9d30330965c3baddcdc81ddf6c252d71c98 *boot.cn.utools.club.lkrn
+68dff94800409dcd17c14dfcf0061ea7e28be0c5d2e1bd2244aafc3454dfabda *boot.cn.utools.club.usb
