@@ -1,4 +1,4 @@
-# netboot.xyz bootloaders generated at Fri Feb  5 09:25:06 UTC 2021
+# boot.cn.utools.club bootloaders generated at Fri Feb  5 09:25:06 UTC 2021
 # iPXE Commit: https://github.com/ipxe/ipxe/commit/831f17f66f9d0082509343de2cf57f9478d877e0
 
 8dc51ba59f5fc789fd4b19c5589e13739ba058746fa2e5ea9897a76e00ffebd4 *boot.cn.utools.club-efi.iso

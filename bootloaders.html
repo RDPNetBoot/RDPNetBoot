@@ -1,17 +1,7 @@
-#!ipxe
-####       boot.cn.utools.club initial loader        ####
-####          System Powerd By RDPStudio.          ####
-set conn_type https
-chain --autofree https://boot.cn.utools.club/menu.ipxe || echo HTTPS failed... attempting HTTP...
-set conn_type http
-chain --autofree http://boot.cn.utools.club/menu.ipxe || echo HTTP failed, localbooting...
-exit
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>boot.cn.utools.club BootLoaders - Powered by RDPStudio</title>
-    <script>window.location.href="https://boot.cn.utools.club/web.html";</script>
   </head>
   <style>
     table, th, td {
