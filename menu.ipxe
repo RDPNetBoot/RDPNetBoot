@@ -60,7 +60,7 @@ item changebits ${space} Architecture: ${arch} (${bits}bit)
 item shell ${space} iPXE shell
 item netinfo ${space} Network card info
 item lspci ${space} PCI Device List
-#item about ${space} About boot.cn.utools.club
+item about ${space} About RDPNetBoot
 isset ${github_user} && item --gap Custom Github Menu: ||
 isset ${github_user} && item custom-github ${space} ${github_user}'s Custom Menu ||
 isset ${custom_url} && item --gap Custom URL Menu: ||
