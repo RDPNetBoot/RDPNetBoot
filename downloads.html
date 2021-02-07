@@ -29,13 +29,13 @@
                         <div class="inner">
                             <h1 class="major">资源下载</h1>
                             <span class="image fit"></span>
-                            <p>这里汇总了RDPNetBoot适用于大部分启动引导方式的文件，您可以按照需求自行下载！若要查看其他引导文件，请<a href="https://boot.cn.utools.club/bootloaders.html" target="_blank" class="">点击此处</a></p>
+                            <p>这里汇总了RDPNetBoot适用于所有启动引导方式的文件，您可以按照需求自行下载！本表已作翻译处理，若要查看原版，请<a href="https://boot.cn.utools.club/bootloaders.html" target="_blank" class="">点击此处</a>。<a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-sha256-checksums.txt" target="_blank" class="">SHA256校验码</a></p>
 
                             <div class="table-wrapper">
                                 <table class="alt">
                                     <thead>
                                         <tr>
-                                            <th>引导类型</th>
+                                            <th>文件类型</th>
                                             <th>引导文件</th>
                                             <th>主要用途</th>
                                         </tr>
@@ -66,6 +66,33 @@
                                             <td><a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.dsk" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.dsk</a></td>
                                             <td>适用于传统BIOS启动下的软驱启动</td>
                                         </tr>
+                                        </tr>
+                                            <tr>
+                                           <td> DHCP </td>
+                                           <td> <a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.kpxe" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.kpxe</a> </td>
+                                           <td> DHCP引导文件，使用内置NIC驱动 </td>
+                                        </tr>
+                                            <tr>
+                                           <td> DHCP-undionly </td>
+                                           <td> <a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-undionly.kpxe" target="_blank" class="button icon solid fa-download">boot.cn.utools.club-undionly.kpxe</a> </td>
+                                           <td> DHCP引导文件，在有NIC问题时使用 </td>
+                                        </tr>
+                                            </tr>
+                                                <tr>
+                                               <td> DHCP </td>
+                                               <td> <a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club.efi" target="_blank" class="button icon solid fa-download">boot.cn.utools.club.efi</a> </td>
+                                               <td> DHCP EFI引导文件，使用内置NIC驱动 </td>
+                                            </tr>
+                                                <tr>
+                                               <td> DHCP-snp </td>
+                                               <td> <a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-snp.efi" target="_blank" class="button icon solid fa-download">boot.cn.utools.club-snp.efi</a> </td>
+                                               <td> EFI w/ Simple 网络协议，支持引导任何网络设备 </td>
+                                            </tr>
+                                                <tr>
+                                               <td> DHCP-snponly </td>
+                                               <td> <a href="https://boot.cn.utools.club/ipxe/boot.cn.utools.club-snponly.efi" target="_blank" class="button icon solid fa-download">boot.cn.utools.club-snponly.efi</a> </td>
+                                               <td> EFI w/ Simple 网络协议，只能从设备chain引导 </td>
+                                            </tr>
                                     </tbody>
                                 </table>
                                 <h3>GRUB引导下载</h3>
